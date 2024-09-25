@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      media="screen and (max-width:800px)"
+      href="tablet.css"
+    />
+    <link
+      rel="stylesheet"
+      media="screen and (max-width:530px)"
+      href="mobile.css"
+    />
+  </head>
+  <body>
+    <nav class="navbar">
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About Me</a></li>
+        <li><a href="#portforlio">Tech Interests</a></li>
+        <!-- <li><a href="#">Services</a></li> -->
+        <li><a href="#contact">Contact Me</a></li>
+      </ul>
+    </nav>
+
+    <section id="home">
+      <div class="main">
+        <h1 class="headings">I AM <br />JULIA IGUOBARO</h1>
+        <!-- <button class="btn">Hire Me</button> -->
+      </div>
+    </section>
+
+    <section id="about">
+      <h1 class="headings">ABOUT ME</h1>
+      <div id="pic">
+        <img src="images/1719500448371.jpg" alt="" />
+        <div id="intro">
+          <h2>JULIA IGUOBARO</h2>
+          <p>
+            Backend C# Software Engineer with hands-on experience in .NET
+            Technologies and AWS cloud services. Develop scalable and efficient
+            backend solutions. Knowledgeable in leveraging AWS technologies to
+            optimize application deployment, management, and performance.
+            Skilled in enhancing team productivity through Agile methodologies.
+            <br />
+            <br />In two years I plan to become a Senior DevOps Cloud Engineer.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="portforlio">
+      <h1 class="headings">Tech Interests</h1>
+      <div class="gallery">
+        <img
+          src="images/360_F_308823955_XTMT8TNKmOYnPEwmEmfnskgNqQv3hQE5.jpg"
+          alt=""
+        />
+        <img
+          src="images/DALL·E 2023-10-30 10.33.27 - A photo of a modern workspace with a computer displaying a code editor focused on back-end development. Surrounding the computer are holographic proje.png"
+          alt=""
+        />
+        <img src="images/gradient-ui-ux-background_23-2149052117.jpg" alt="" />
+        <img
+          src="images/project-management-concept-chart-with-keywords-and-icons.jpg"
+          alt=""
+        />
+        <img src="images/img1.jpg" alt="" />
+        <img src="images/devops.jpeg" alt="" />
+      </div>
+      <a href="https://hng.tech" target="_blank"
+        ><button class="gfg">Learn More</button></a
+      >
+    </section>
+
+    <section id="contact">
+      <h1 class="headings">CONTACT ME</h1>
+      <form action="" class="form">
+        <input
+          type="text"
+          name="name"
+          class="input"
+          placeholder="Enter Your Name"
+        />
+        <input
+          type="email"
+          name="email"
+          class="input"
+          placeholder="Enter Your Email"
+        />
+        <textarea
+          name="msg"
+          id="msg"
+          cols="30"
+          rows="10"
+          placeholder="Enter Your Message"
+        ></textarea>
+        <input type="submit" value="SEND" id="send" />
+      </form>
+    </section>
+  </body>
+</html>
